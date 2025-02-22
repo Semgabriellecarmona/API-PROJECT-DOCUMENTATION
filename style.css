@@ -1,103 +1,103 @@
 body {
-    background: #00008B;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
+    background: #00008B; /* Sets a dark blue background color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Defines the font family */
+    display: flex; /* Enables flexbox for centering content */
+    align-items: center; /* Centers content vertically */
+    justify-content: center; /* Centers content horizontally */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Removes default margin */
 }
 
 #weather-container {
-    background: rgba(255, 255, 255, 0.3);
-    max-width: 400px;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255,  255, 0.1);
-    text-align: center;
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+    max-width: 400px; /* Limits maximum width */
+    padding: 20px; /* Adds spacing inside the container */
+    border-radius: 15px; /* Rounds corners */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+    backdrop-filter: blur(10px); /* Applies blur effect */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Light border */
+    text-align: center; /* Centers text */
 }
 
 h2, label, p {
-    color: #fff;
-    margin: 8px 0;
+    color: #fff; /* Sets text color to white */
+    margin: 8px 0; /* Adds spacing around elements */
 }
 
 input {
-    width: calc(100% - 16px);
-    padding: 8px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    border: 1px solid white;
-    margin-top: 20px;
-    font-size: 16px;
+    width: calc(100% - 16px); /* Makes input responsive with padding accounted */
+    padding: 8px; /* Adds padding */
+    box-sizing: border-box; /* Ensures consistent sizing */
+    border-radius: 10px; /* Rounds input corners */
+    border: 1px solid white; /* Adds white border */
+    margin-top: 20px; /* Adds space above input */
+    font-size: 16px; /* Sets text size */
 }
 
 button {
-    background: #87CEFA;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-top: 20px;
-    width: 100px;
-    font-size: 15px;
-    transition: background 0.3s ease;
+    background: #87CEFA; /* Light blue background */
+    color: white; /* White text */
+    padding: 10px; /* Adds padding */
+    border: none; /* Removes default border */
+    border-radius: 10px; /* Rounds corners */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    margin-top: 20px; /* Adds space above button */
+    width: 100px; /* Sets button width */
+    font-size: 15px; /* Adjusts text size */
+    transition: background 0.3s ease; /* Smooth transition effect */
 }
 
 button:hover {
-    background: #FFA500;
+    background: #FFA500; /* Changes button color on hover */
 }
 
 #temperature-info p {
-    font-size: 60px;
-    margin-top: -30px;
-    color: white;
+    font-size: 60px; /* Large font size for temperature */
+    margin-top: -30px; /* Adjusts vertical positioning */
+    color: white; /* White text */
 }
 
 #weather-info {
-    font-size: 20px;
-    color: white;
-    margin-top: 10px;
+    font-size: 20px; /* Sets text size */
+    color: white; /* White text */
+    margin-top: 10px; /* Adds spacing */
 }
 
 #weather-icon {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    display: none;
+    width: 200px; /* Sets icon size */
+    height: 200px; /* Maintains aspect ratio */
+    margin: 0 auto; /* Centers icon horizontally */
+    margin-bottom: 20px; /* Adds space below icon */
+    display: none; /* Initially hides the icon */
 }
 
 #hourly-forecast {
-    margin-top: 30px;
-    overflow-x: auto;
-    white-space: nowrap;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 0;
+    margin-top: 30px; /* Adds space above hourly forecast */
+    overflow-x: auto; /* Enables horizontal scrolling */
+    white-space: nowrap; /* Prevents text wrapping */
+    display: flex; /* Uses flexbox for layout */
+    justify-content: space-between; /* Distributes items evenly */
+    padding: 10px 0; /* Adds spacing */
 }
 
 .hourly-item {
-    flex: 0 0 auto;
-    width: 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 10px;
-    color: white;
-    text-align: center;
+    flex: 0 0 auto; /* Ensures items don't shrink */
+    width: 80px; /* Sets item width */
+    display: flex; /* Enables flexbox */
+    flex-direction: column; /* Stacks elements vertically */
+    align-items: center; /* Centers content */
+    margin-right: 10px; /* Adds spacing between items */
+    color: white; /* White text */
+    text-align: center; /* Centers text */
 }
 
 .hourly-item img {
-    width: 30px;
-    height: 30px;
-    margin-bottom: 5px;
+    width: 30px; /* Sets image width */
+    height: 30px; /* Sets image height */
+    margin-bottom: 5px; /* Adds spacing below image */
 }
 
 #hourly-heading {
-    color: #fff;
-    margin-top: 10px;
+    color: #fff; /* White text color */
+    margin-top: 10px; /* Adds spacing above heading */
 }
